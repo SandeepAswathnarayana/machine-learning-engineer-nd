@@ -3,3 +3,7 @@ ML Pipeline
 [GCP ML Pipeline](https://cloud.google.com/ai-platform/docs/ml-solutions-overview)  
 [MS Azure ML Pipeline](https://docs.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-ml)  
 
+What is Cloud Computing  
+[AWS Cloud Computing](https://aws.amazon.com/what-is-cloud-computing/)  
+[GCP Cloud Computing](https://cloud.google.com/what-is-cloud-computing/)  
+[MS Azure Cloud Computing](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/)  
