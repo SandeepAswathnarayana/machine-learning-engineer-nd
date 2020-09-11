@@ -9,3 +9,7 @@ What is Cloud Computing
 [MS Azure Cloud Computing](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/)  
 
 An example of a [dockerfile](https://github.com/pytorch/pytorch/blob/master/docker/pytorch/Dockerfile) that creates a docker container with Python 3.6 and PyTorch installed.  
+
+Updating a deployed model: [Data Stream Generation with Concept Drift](https://edouardfouche.com/Data-Stream-Generation-with-Concept-Drift/)  
+
+
