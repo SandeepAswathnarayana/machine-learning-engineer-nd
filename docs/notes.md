@@ -7,3 +7,5 @@ What is Cloud Computing
 [AWS Cloud Computing](https://aws.amazon.com/what-is-cloud-computing/)  
 [GCP Cloud Computing](https://cloud.google.com/what-is-cloud-computing/)  
 [MS Azure Cloud Computing](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/)  
+
+An example of a [dockerfile](https://github.com/pytorch/pytorch/blob/master/docker/pytorch/Dockerfile) that creates a docker container with Python 3.6 and PyTorch installed.  
