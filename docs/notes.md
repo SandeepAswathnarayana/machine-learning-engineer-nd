@@ -24,7 +24,8 @@ Features offered by Amazon's SageMaker service:
 5. **Endpoint Configurations** act as blueprints for endpoints. They describe what sort of resources should be used when an endpoint is constructed along with which models should be used and, if multiple models are to be used, how the incoming data should be split up among the various models.
 6. **Endpoints** are the actual HTTP URLs that are created by SageMaker and which have properties specified by their associated endpoint configurations. Have you shut down your endpoints?
 7. **Batch Transform** is the method by which you can perform inference on a whole bunch of data at once. In contrast, setting up an endpoint allows you to perform inference on small amounts of data by sending it do the endpoint bit by bit.
-In addition to the features provided by SageMaker we used three other Amazon services. In particular, we used **S3** as a central repository in which to store our data. This included test / training / validation data as well as model artifacts that we created during training.
-We also looked at how we could combine a deployed SageMaker endpoint with **Lambda** and **API Gateway** to create our own simple web app.
+Amazon Services:
+**S3** is a central repository which is used to store our data. This included test / training / validation data as well as model artifacts that we created during training.
+**Lambda** and **API Gateway** We also looked at how we could combine a deployed SageMaker endpoint with **Lambda** and **API Gateway** to create our own simple web app.
 
 
