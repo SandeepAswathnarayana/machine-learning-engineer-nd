@@ -9,14 +9,12 @@ What is Cloud Computing
 [MS Azure Cloud Computing](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/)  
 
 An example of a [dockerfile](https://github.com/pytorch/pytorch/blob/master/docker/pytorch/Dockerfile) that creates a docker container with Python 3.6 and PyTorch installed.  
-
 Updating a deployed model: [Data Stream Generation with Concept Drift](https://edouardfouche.com/Data-Stream-Generation-with-Concept-Drift/)  
 
 SageMaker does automated hyperparameter tuning using Bayesian Optimization. Also, CloudWatch for logs generated during training.  
 
 Creating an **endpoint that sends data to more than one model** (Ex: XGBoost and Linear models) and **how to update an existing endpoint** without any downtime for the user.  
-
-In this module we looked at various features offered by Amazon's SageMaker service. These features include the following.
+Features offered by Amazon's SageMaker service:
 1. **Notebook Instances** provide a convenient place to process and explore data in addition to making it very easy to interact with the rest of SageMaker's features.
 2. **Training Jobs** allow us to create model artifacts by fitting various machine learning models to data.
 3. **Hyperparameter Tuning** allow us to create multiple training jobs each with different hyperparameters in order to find the hyperparameters that work best for a given problem.
