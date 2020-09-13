@@ -12,4 +12,6 @@ An example of a [dockerfile](https://github.com/pytorch/pytorch/blob/master/dock
 
 Updating a deployed model: [Data Stream Generation with Concept Drift](https://edouardfouche.com/Data-Stream-Generation-with-Concept-Drift/)  
 
+SageMaker does automated hyperparameter tuning using Bayesian Optimization. Also, CloudWatch for logs generated during training.  
+
 
