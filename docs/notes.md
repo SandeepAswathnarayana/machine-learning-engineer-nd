@@ -14,4 +14,6 @@ Updating a deployed model: [Data Stream Generation with Concept Drift](https://e
 
 SageMaker does automated hyperparameter tuning using Bayesian Optimization. Also, CloudWatch for logs generated during training.  
 
+Creating an **endpoint that sends data to more than one model** (Ex: XGBoost and Linear models) and **how to update an existing endpoint** without any downtime for the user.  
+
 
