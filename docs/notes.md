@@ -26,6 +26,13 @@ Features offered by Amazon's SageMaker service:
 7. **Batch Transform** is the method by which you can perform inference on a whole bunch of data at once. In contrast, setting up an endpoint allows you to perform inference on small amounts of data by sending it do the endpoint bit by bit.
 Amazon Services:
 **S3** is a central repository which is used to store our data. This included test / training / validation data as well as model artifacts that we created during training.
-**Lambda** and **API Gateway** We also looked at how we could combine a deployed SageMaker endpoint with **Lambda** and **API Gateway** to create our own simple web app.
+**Lambda** and **API Gateway** We also looked at how we could combine a deployed SageMaker endpoint with **Lambda** and **API Gateway** to create our own simple web app.  
+
+SageMaker Case Studies:  
+1. Population Segmentation
+2. Credit Card Payment Fraud
+3. Non-linear Classification
+4. Time-Series Forecasting
+5. Plagiarism Detection
 
 
