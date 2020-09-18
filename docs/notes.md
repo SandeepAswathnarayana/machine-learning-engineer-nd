@@ -35,4 +35,6 @@ SageMaker Case Studies:
 4. Time-Series Forecasting
 5. Plagiarism Detection
 
+[K-means Constructor](https://sagemaker.readthedocs.io/en/stable/algorithms/kmeans.html) - apply this to the transformed data (dimensionality reduction) that is obtained after PCA  
+
 
