@@ -33,7 +33,7 @@ SageMaker Case Studies:
 2. Credit Card Payment Fraud
 3. Non-linear Classification
 4. Time-Series Forecasting
-5. Plagiarism Detection
+5. Plagiarism Detection  
 
 1. Population Segmentation  
 - Used t create localized Marketing Campaigns that want to target a variety of regions based on demographic similarities  
