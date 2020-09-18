@@ -36,13 +36,15 @@ SageMaker Case Studies:
 5. Plagiarism Detection  
 
 
-Population Segmentation:  
+Population Segmentation (Unsupervised):  
 - Used to create localized Marketing Campaigns that want to target a variety of regions based on demographic similarities  
 - [K-means Constructor](https://sagemaker.readthedocs.io/en/stable/algorithms/kmeans.html) - apply this to the transformed data (dimensionality reduction) that is obtained after PCA  
 - [Estimators](https://sagemaker.readthedocs.io/en/stable/api/training/estimators.html#sagemaker.estimator.EstimatorBase) - a high level interface for SageMaker training  
 
-Payment Fraud Detection:  
+Payment Fraud Detection (Supervised):  
 - Identify atypical patterns in tansactions and flag them. ML algorithms help find patterns by looking at users' historical spending data (valid vs fraudulent)  
+- Use LinearLearner's Binary Classification algorithm to classify the data into 'valid' (0) and 'fraudulent' (1) labels. [Note: LinearLearner has a. LinearRegression b. BinaryClassification]  
+
 
 
 
