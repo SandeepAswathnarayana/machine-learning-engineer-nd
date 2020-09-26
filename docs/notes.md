@@ -45,6 +45,13 @@ Payment Fraud Detection (Supervised):
 - Identify atypical patterns in tansactions and flag them. ML algorithms help find patterns by looking at users' historical spending data (valid vs fraudulent)  
 - Use LinearLearner's Binary Classification algorithm to classify the data into 'valid' (0) and 'fraudulent' (1) labels. [Note: LinearLearner has a. LinearRegression b. BinaryClassification]  
 
+Plagiarism Detector (Binary Classification):  
+- Find the text similarity features using 'Containment'  
+- Calculate the Longest Common Subsequence (LCS) between the answer text and source text. Compute Normalized LCS value  
+
+
+
+
 
 
 
