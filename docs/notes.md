@@ -52,7 +52,7 @@ Plagiarism Detector (Binary Classification):
 Time-Series Forecasting:  
 - Household Energy Consumption - Train a DeepAR model defined context and prediction data points  
 - Forecasting vs Classification: For Forecasting, it's important to do the train-test split in 'time' unlike the Classification where the train-test split could be done randomly  
-
+- Create a function (`create_training_series`) which takes in a list of complete time series and creates a different list of training time series that have n prediction length points left off  
 
 
 
