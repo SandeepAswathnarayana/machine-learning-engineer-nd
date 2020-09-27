@@ -57,7 +57,9 @@ Time-Series Forecasting:
 - DeepAR being an RNN, setting the hyperparameters plays a key role in training. More cells, more layers = captures more complex relationships in the data; batch size, learning rate = how the model rains and improves  
 - The `request data` will be a dictionary of `instances` and `configuration`  
 
-
+ML Capstone:  
+- Refer to "Possible Pojects" section under "ML Engineer Capstone" chapter  
+- Bertelsmann Arvato Project
 
 
 
