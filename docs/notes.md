@@ -59,6 +59,7 @@ Time-Series Forecasting:
 
 ML Capstone:  
 - Refer to "Possible Pojects" section under "ML Engineer Capstone" chapter  
+- Capstone Report Examples: [Project 1](https://github.com/udacity/machine-learning/blob/master/projects/capstone/report-example-1.pdf), [Project 2](https://github.com/udacity/machine-learning/blob/master/projects/capstone/report-example-3.pdf)
 - Bertelsmann Arvato Project
 
 
