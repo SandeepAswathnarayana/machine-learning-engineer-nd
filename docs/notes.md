@@ -49,6 +49,8 @@ Plagiarism Detector (Binary Classification):
 - Find the text similarity features using 'Containment'  
 - Calculate the Longest Common Subsequence (LCS) between the answer text and source text. Compute Normalized LCS value  
 
+Time-Series Forecasting:  
+- Household Energy Consumption - Train a DeepAR model defined context and prediction data points  
 
 
 
