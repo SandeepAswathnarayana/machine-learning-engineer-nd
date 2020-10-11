@@ -16,3 +16,5 @@ Email: sagemaker-fridays@amazon.com
 ### Season 2:  
 [Julien SIMON](https://www.linkedin.com/in/juliensimon/)  
 [Dr. Ségolène Dessertine-Panhard](https://www.linkedin.com/in/dr-s%C3%A9gol%C3%A8ne-dessertine-panhard-41416010/)  
+
+S2E1: [Aircraft Predictive Maintenance](https://github.com/awslabs/predictive-maintenance-using-machine-learning/tree/master/source/notebooks)  
