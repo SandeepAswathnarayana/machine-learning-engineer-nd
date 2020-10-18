@@ -18,3 +18,4 @@ Email: sagemaker-fridays@amazon.com
 [Dr. Ségolène Dessertine-Panhard](https://www.linkedin.com/in/dr-s%C3%A9gol%C3%A8ne-dessertine-panhard-41416010/)  
 
 S2E1: [Aircraft Predictive Maintenance](https://github.com/awslabs/predictive-maintenance-using-machine-learning/tree/master/source/notebooks)  
+S2E2: [Deep Demand Forecasting with SageMaker](https://github.com/awslabs/sagemaker-deep-demand-forecast)  
