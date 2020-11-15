@@ -22,6 +22,7 @@ S2E2: [Deep Demand Forecasting with SageMaker](https://github.com/awslabs/sagema
 S2E3: [Fraud Detection using Machine Learning](https://github.com/awslabs/fraud-detection-using-machine-learning/blob/master/source/notebooks/sagemaker_fraud_detection.ipynb)  
 *Note: How to detect concept drift and/or data drift using [SageMaker Model Monitor](https://github.com/aws/amazon-sagemaker-examples/tree/master/sagemaker_model_monitor)*  
 S2E6: [Computer Vision and Large Scale Training](https://github.com/PacktPublishing/Learn-Amazon-SageMaker/blob/master/sdkv2/ch10/spot/Image%20Classification%20on%20Imagenet%20-%20Managed%20Spot%20Training.ipynb) - Image Classification on ImageNet.  
+*Motive: How do you scale your training jobs when you're dealing with very large datasets?*  
 
 ## AWS Power Hour: Cloud Practitioner  
 [AWS Certified Cloud Practitioner, Global Challenge](https://pages.awscloud.com/awspowerhour-CP.html)  
