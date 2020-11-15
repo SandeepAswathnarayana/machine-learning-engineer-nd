@@ -23,6 +23,8 @@ S2E3: [Fraud Detection using Machine Learning](https://github.com/awslabs/fraud-
 *Note: How to detect concept drift and/or data drift using [SageMaker Model Monitor](https://github.com/aws/amazon-sagemaker-examples/tree/master/sagemaker_model_monitor)*  
 S2E6: [Computer Vision and Large Scale Training](https://github.com/PacktPublishing/Learn-Amazon-SageMaker/blob/master/sdkv2/ch10/spot/Image%20Classification%20on%20Imagenet%20-%20Managed%20Spot%20Training.ipynb) - Image Classification on ImageNet.  
 *Motive: How do you scale your training jobs when you're dealing with very large datasets?*  
+Notes:  
+- What makes ResNet unique? - Error reduced to 3.6%, Addition of (a) skip connections (b) deep residual layer [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)  
 
 ## AWS Power Hour: Cloud Practitioner  
 [AWS Certified Cloud Practitioner, Global Challenge](https://pages.awscloud.com/awspowerhour-CP.html)  
