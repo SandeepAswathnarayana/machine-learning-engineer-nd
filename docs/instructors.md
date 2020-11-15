@@ -25,6 +25,8 @@ S2E6: [Computer Vision and Large Scale Training](https://github.com/PacktPublish
 *Motive: How do you scale your training jobs when you're dealing with very large datasets?*  
 Notes:  
 - What makes ResNet unique? - Error reduced to 3.6%, Addition of (a) skip connections (b) deep residual layer [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)  
+- Pipe mode: Useful for large datasets (petabyte-scaled distributed datasets). Inpute datatset is fed/streamed directly into your trainig instance instead of downloading. Short training time. Less disk space. High throughput.  
+- ml.p3dn.24xlarge: largest instance_type available on SageMaker today (64 NVIDIA V100 GPUs).  
 
 ## AWS Power Hour: Cloud Practitioner  
 [AWS Certified Cloud Practitioner, Global Challenge](https://pages.awscloud.com/awspowerhour-CP.html)  
