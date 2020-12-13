@@ -65,7 +65,10 @@ Amazon SageMaker Pipelines: the first purpose built easy to use ML CI/CD service
 - SageMaker Autopilot: AutoML-created models (as opposed to Manually-built models) for beginners or non-ML practitioners. Raw data -> Automati model creation -> Model leaderboard -> Deploy and monitor the model.  
 - Amazon Aurora ML: make it easier for customers to integrate ML into Aurora-powered apps, apply ML to apps right from the database just by using a SQL query. (Ex: Sentiment Analysis of customer product reviews to identify negative feedback). Run a SQL query to invoke the ML service -> Aurora passes relevant data to Amazon Comprehend -> Results returned to Aurora that are ready to use. Aurora ML makes it easy for Relational DB Developers to apply ML.  
 - Amazon Athena ML: Customers can easily add ML-based predictions to their queries on S3. Run inferences to forecast sales, detect suspicious logins, sort users into customer cohorts by invoking pretrained ML models.  
-- Amazon Redshift ML: use SQL to make ML predictions from your data warehouse.  
+- Amazon Redshift ML: use SQL to make ML predictions from your data warehouse. Create model using SQL -> Selected data is securely exported from Redshift to S3 -> SageMaker Autopilot applies the best algo for the data -> Interactions between Redshift, S3, SageMaker and ML are abstracted away -> Avalilable as a SQL function to use in data queries, reports, dashboards. (Ex: Run the Customer Churn SQL function on new customer data in the data warehouse to identify the customers at risk and feed thsi to the Sales/Marketing teams). Redshift ML mostly useful fro DAs.  
+- Amazon Neptune ML: Predictions on connected datasets with graph neural networks. Fast, reliable, fully managed graph DB service that makes it easy to build and run applications that work with these kind of graphs. Graph DBs ar sue to store complex relationships between data and a graph model. Ex: Knowledge Graph, Life sciences, Fraud Detection, Recommendation Engines. SOTA ML with Deep Graph Library and SgaeMaker.  
+Integration SageMaker into other products and BI tools: Domo, Sisense, Qlik, Tableau, Snowflake, Databricks, etc. starting 2021.  
+- Amazon QuickSight ML Insights: 
 
 
 
