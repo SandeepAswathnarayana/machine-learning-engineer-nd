@@ -31,3 +31,22 @@ Notes:
 
 ## AWS Power Hour: Cloud Practitioner  
 [AWS Certified Cloud Practitioner, Global Challenge](https://pages.awscloud.com/awspowerhour-CP.html)  
+
+## AWS re:Invent 2020:  
+ML Keynote by [Swami Sivasubramanian](https://www.linkedin.com/in/swaminathansivasubramanian/)  
+- Domino's Pizza (predictive ordering and delivering in <10 min), Roche (uses SageMaker to accelerate the delivery of treatments and tailor medical experiences), Kabbage (ML in loan application process and surpassed major US Banks to become 2nd largest Business Payment Protection Program lender in the US, preserving an estimated 945k jobs), BMW (uses SageMkaer to process, analyze and enrich more tham 7petabytes of data inorder to froecast the demand both model mix and individual equipment on a worldwide scale), Nike (built a product recommender for online shopping experience towards wholesale customers), F1 (ML in car design process, giving them new insights into more than 550M data points collected through mor ethan 5000 single single and multi car simulations).  
+- Overview of ML stack (ML farmeworks & infrastructure - Amazon SageMaker - AI Services)  
+- Launeched AI Services (Polly, Lex, Rekognition) in 2016. 11 new AI Services till date and 250+ features in the last year.  
+- Amazon S3, RDS, Dynamo - how it transitioned many industries leveraging the AWS Cloud  
+- Freedom to Invent:  
+(a) Tenet 1: Provide firm foundations - optimizing frameworks and infrastructure to enable more builders to build and deploy ML models  
+TensorFlow, PyTorch, mxnet (Ex: TorchServe, the default model serving library on PyTorch was built and is maintained by AWS in partnership with FB)  
+P4d instances: provides the highest performance of ML training in the cloud, NVIDIA A100 GPUs, 400 Gigabit per second networking  
+AWS Inferentia: EC2 based instances that provides upto 45% lower cost or 30% higher throughput than comparable GPU based instances (Amazon Alexa achieved 25% lower end-to-end latency for text to speech workloads)  
+Customers: Snap, Finra, Autodesk, Conde Nast use Inf1 instances  
+
+
+
+
+
+
