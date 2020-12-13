@@ -82,6 +82,19 @@ Challenges of Anomaly Detection in etrics: High latency of detection, Failed det
 - Amazon Lookout for Vision: spot product defects using CV to automate quality inspection. Provide as few as 30 images to establish a baseline "good" state -> Alerts you of anomalies and higlights the portion of an image that differs from the baseline -> Sophisticated to handle variances in camera angle, pose, lighting.  
 - AWS Panorama Appliance: to add CV to existing cameras. Customers in: Manufacturing, Retail, Construction, Safety, etc. Panorama SDK: enables heardware vendors to build new cameras, run more sophisticated CV models at the Edge. This SDK and APIs add a lot more CV power to cameras. Fits more powerful models with memory and latency optimizations. Integrates with AWS services including SageMaker and AWS IoT SiteWise.  
 
+Reinventing healthcare and life sciences with ML  
+Clinical data is complex:
+(a) Data spread across various systems: electronic medical records, lab systems, incomatible format)  
+(b) Unstructured information contained in medical records clinical notes, PDF reports, insurance claims forms, medical images  
+(c) Gathering and preparing this data takes weeks or months  
+(d) Manual process to identify and extract key information  
+Amazon HealthLake: store, transform and analyze health and life sciences data in the cloud at petabyte scale. Transforms data to extract meaningful info; Organizes data in chronological order so that you can look at trends; Built-in data query, search and ML capabilities; Supports interoperability standards like FHIR to enable data sharing across health systems. Ex: Diabetes Prediction.  
+Elad Benjamin (GM of Radiology Informatics, Philips): Philips HealthSuite is a clinical datalake built on AWS. Applications in image guided therapy, sleep and respiratory care, remote patient monitoring, etc.  
+
+5. Tenet 5: Learn continuously  
+ML University; Training & Certification; MOOCs; AWS DeepRacer + DeepLens + DeepComposer.  
+AWS DeepRacer (RL-based autonomous driving) in the enterprise: DBS Bank, JP Morgan, Chase, BMW, Toyota.  
+
 
 
 
