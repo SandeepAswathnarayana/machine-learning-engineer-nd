@@ -76,6 +76,7 @@ What are some good ML models: Are rich in data + Impact the business + Haven't b
 - Amazon Kendra (Intelligent Search): end-to-end intelliget search solution which can connect to multiple internal data silos and uses ML to create an accurate index which can be searched with simple NLP queries.    
 - Amazon CodeGuru + DevOps Guru (Code + DevOps): provide automated code reviews, guidance and recommendations on how to fix some truly hard to find bugs and locate some expensive lines of code, reduce latency, reduce CPU contention. DevOps Guru is used to improve application's operational performnace and availability.  
 Challenges of Anomaly Detection in etrics: High latency of detection, Failed detection, Too many false detections, Lack of actionable results, Adaptability to changes in data streams. Example: when a retailer prices a product incorrectly on e-commerce site, that product could be sold out before someone even realizes that there is a certain spike in sales.  
+- Amazon Lookout for Metrics: uses ML to detect anomalies in virtually any timeseries-driven business and operational metrics (revenue performance, purchase transactions, customer acquisitions, retention rates). Ex: Category-level Revenue in Retail, Ad Tech company can optimize ad spend by detecting spikes/dips in metrics like reach, impressions, views, ad clicks.  
 
 
 
