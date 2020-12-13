@@ -68,7 +68,16 @@ Amazon SageMaker Pipelines: the first purpose built easy to use ML CI/CD service
 - Amazon Redshift ML: use SQL to make ML predictions from your data warehouse. Create model using SQL -> Selected data is securely exported from Redshift to S3 -> SageMaker Autopilot applies the best algo for the data -> Interactions between Redshift, S3, SageMaker and ML are abstracted away -> Avalilable as a SQL function to use in data queries, reports, dashboards. (Ex: Run the Customer Churn SQL function on new customer data in the data warehouse to identify the customers at risk and feed thsi to the Sales/Marketing teams). Redshift ML mostly useful fro DAs.  
 - Amazon Neptune ML: Predictions on connected datasets with graph neural networks. Fast, reliable, fully managed graph DB service that makes it easy to build and run applications that work with these kind of graphs. Graph DBs ar sue to store complex relationships between data and a graph model. Ex: Knowledge Graph, Life sciences, Fraud Detection, Recommendation Engines. SOTA ML with Deep Graph Library and SgaeMaker.  
 Integration SageMaker into other products and BI tools: Domo, Sisense, Qlik, Tableau, Snowflake, Databricks, etc. starting 2021.  
-- Amazon QuickSight ML Insights: 
+- Amazon QuickSight ML Insights: scalable, embeddable BI service for the cloud. It integrates with SageMkaer Autopilot to enable BAs for tasks like anomaly detection, forecasting. Customers: Expedia, TCS, Ricoh Company. Autonarratives: a feature that uses ML insights to tell customers the story of their dashboard using plain language narratives. Business questions in plain written language is a big plus. Dorothy Li on QuickSight Q: deep learning capability that empowers business users to ask questions in NLP. (Type your question directly in the Q search bar: "Show me last year's weekly sales in California versus New York").  
+
+4. Solve real business problems, end-to-end  
+What are some good ML models: Are rich in data + Impact the business + Haven't been solved well to date (Example areas: Product recommendations, Improving code reviews, Bringing more efficiency to manual processes, faster and more accurate forecasting and fraud detection)  
+- Amazon Connect (Contact Center): a contact center in the cloud where we provide automatic voice transcription, sentimental analysis and analytics using ML through Contact Lens.  
+- Amazon Kendra (Intelligent Search): end-to-end intelliget search solution which can connect to multiple internal data silos and uses ML to create an accurate index which can be searched with simple NLP queries.    
+- Amazon CodeGuru + DevOps Guru (Code + DevOps): provide automated code reviews, guidance and recommendations on how to fix some truly hard to find bugs and locate some expensive lines of code, reduce latency, reduce CPU contention. DevOps Guru is used to improve application's operational performnace and availability.  
+Challenges of Anomaly Detection in etrics: High latency of detection, Failed detection, Too many false detections, Lack of actionable results, Adaptability to changes in data streams. Example: when a retailer prices a product incorrectly on e-commerce site, that product could be sold out before someone even realizes that there is a certain spike in sales.  
+
+
 
 
 
