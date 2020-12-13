@@ -54,11 +54,21 @@ SageMaker applies Distributed Training automatically: used by Mask-RCNN (SOTA CV
 
 2. Tenet 2: Create the shortest path to success  
 Speeding up innovation with SageMaker. Customers: Lyft, T-Mobile, Vanguard, ifood, ADP, NFL (Health, Safety, Predict and Prevent Injury), Intuit (Tax Deduction, Fraud Detection, Customer Services, Personalization, Development of new features),  
-Amazon SageMaker Data Wrangler: the fastest way to prepare data for ML; 300+ pre-configured data transformations (with no code required); see data spot inconsistencies, diagnose and fix; export data with a single click  
-Amazon SageMaker Featre Store: securely store, discover and share features, so you don't need to recreate teh same features for different ML applications; single digit ms latency for inference; keep features consistent and in sync; search your features easily with visualizations.  
-Amazon SageMaker Clarify: detecting potential bias across ML workflows. Dr. Nashlie Sephus (Applied Scientist). Bias may be due to inconsistent data, model drift (Ex: a substantial change in mortgage rates could cause a home loan model to become bias), Use dashboards and reports (Ex: BA wants to understand what is driving a demand forecast prediction),  
-Deep Profiling for SageMaker Debugger: to help identify bottlenecks and maximize resource utilization (CPU, GPU, Network, I/O Memory) for training.  
-Amazon SageMaker Pipelines: the first purpose built easy to use ML CI/CD service. Create an automated ML workflow with just a few clicks. Dr. Matt Wood ()
+- Amazon SageMaker Data Wrangler: the fastest way to prepare data for ML; 300+ pre-configured data transformations (with no code required); see data spot inconsistencies, diagnose and fix; export data with a single click  
+- Amazon SageMaker Featre Store: securely store, discover and share features, so you don't need to recreate teh same features for different ML applications; single digit ms latency for inference; keep features consistent and in sync; search your features easily with visualizations.  
+- Amazon SageMaker Clarify: detecting potential bias across ML workflows. Dr. Nashlie Sephus (Applied Scientist). Bias may be due to inconsistent data, model drift (Ex: a substantial change in mortgage rates could cause a home loan model to become bias), Use dashboards and reports (Ex: BA wants to understand what is driving a demand forecast prediction),  
+- Deep Profiling for SageMaker Debugger: to help identify bottlenecks and maximize resource utilization (CPU, GPU, Network, I/O Memory) for training.  
+Amazon SageMaker Pipelines: the first purpose built easy to use ML CI/CD service. Create an automated ML workflow with just a few clicks. Dr. Matt Wood  
+- Amazon SageMaker Edge Manager: Deploying models at the Edge: Industrial robots, Autonomous vehicles, Automated checkouts require ML models that run on robots, smart cameras, equipment, etc. Challenges of ML at Edge: limited compute memory, connectivity, months of hand tuning each model to optimize, the need for multiple ML models to run ona  single device. Amazon SageMaker Neo did a decent job. As ML Edge adoption grew, SageMaker Edge Manager was created. It provides model management to edge devices so you can prepare, run, monitor, update ML models across fleets of edge devices. Easily integrate Edge Manager to your Edge Apps through APIs and common programming languages. Continuosly monitors each instance across your device fleet to detect when the model quality declines. All these encompasses the **SageMaker Studio** with End-to-End services for ML.  
+
+3. Expand ML to more builders  
+- SageMaker Autopilot: AutoML-created models (as opposed to Manually-built models) for beginners or non-ML practitioners. Raw data -> Automati model creation -> Model leaderboard -> Deploy and monitor the model.  
+- Amazon Aurora ML: make it easier for customers to integrate ML into Aurora-powered apps, apply ML to apps right from the database just by using a SQL query. (Ex: Sentiment Analysis of customer product reviews to identify negative feedback). Run a SQL query to invoke the ML service -> Aurora passes relevant data to Amazon Comprehend -> Results returned to Aurora that are ready to use. Aurora ML makes it easy for Relational DB Developers to apply ML.  
+- Amazon Athena ML: Customers can easily add ML-based predictions to their queries on S3. Run inferences to forecast sales, detect suspicious logins, sort users into customer cohorts by invoking pretrained ML models.  
+- Amazon Redshift ML: use SQL to make ML predictions from your data warehouse.  
+
+
+
 
 
 
