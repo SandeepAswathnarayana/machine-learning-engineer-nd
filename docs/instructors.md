@@ -32,18 +32,18 @@ Notes:
 ## AWS Power Hour: Cloud Practitioner  
 [AWS Certified Cloud Practitioner, Global Challenge](https://pages.awscloud.com/awspowerhour-CP.html)  
 
-## AWS re:Invent 2020:  
+## AWS re:Invent 2020  
 ML Keynote by [Swami Sivasubramanian](https://www.linkedin.com/in/swaminathansivasubramanian/)  
-#### Customers and Use cases  
+### Customers and Use cases  
 - Domino's Pizza (predictive ordering and delivering in <10 min), Roche (uses SageMaker to accelerate the delivery of treatments and tailor medical experiences), Kabbage (ML in loan application process and surpassed major US Banks to become 2nd largest Business Payment Protection Program lender in the US, preserving an estimated 945k jobs), BMW (uses SageMkaer to process, analyze and enrich more tham 7petabytes of data inorder to froecast the demand both model mix and individual equipment on a worldwide scale), Nike (built a product recommender for online shopping experience towards wholesale customers), F1 (ML in car design process, giving them new insights into more than 550M data points collected through mor ethan 5000 single single and multi car simulations).  
 
-#### Overview of ML stack  
+### Overview of ML stack  
 - ML farmeworks & infrastructure - Amazon SageMaker - AI Services)  
 - Launched AI Services (Polly, Lex, Rekognition) in 2016. 11 new AI Services till date and 250+ features in the last year.  
 - Amazon S3, RDS, Dynamo - how it transitioned many industries leveraging the AWS Cloud  
 
-#### Freedom to Invent  
-1. Tenet 1: Provide firm foundations - optimizing frameworks and infrastructure to enable more builders to build and deploy ML models  
+### Freedom to Invent  
+**1. Tenet 1: Provide firm foundations - optimizing frameworks and infrastructure to enable more builders to build and deploy ML models**  
 TensorFlow, PyTorch, mxnet (Ex: TorchServe, the default model serving library on PyTorch was built and is maintained by AWS in partnership with FB)  
 P4d instances: provides the highest performance of ML training in the cloud, NVIDIA A100 GPUs, 400 Gigabit per second networking  
 (a) AWS Inferentia: EC2 based instances that provides upto 45% lower cost or 30% higher throughput than comparable GPU based instances (Amazon Alexa achieved 25% lower end-to-end latency for text to speech workloads)  
@@ -52,7 +52,7 @@ Habana gaudi-based Amazon EC2 instances
 (b) AWS Trainium: a ML training chip custom designed by AWS for the most cost effective training in the cloud.  
 SageMaker applies Distributed Training automatically: used by Mask-RCNN (SOTA CV model used by autonomous vehicles) for Data Parallelism, T5-3B (SOTA NLP model) for Model Parallelism to speed up the training process  
 
-2. Tenet 2: Create the shortest path to success  
+**2. Tenet 2: Create the shortest path to success**  
 Speeding up innovation with SageMaker. Customers: Lyft, T-Mobile, Vanguard, ifood, ADP, NFL (Health, Safety, Predict and Prevent Injury), Intuit (Tax Deduction, Fraud Detection, Customer Services, Personalization, Development of new features),  
 - Amazon SageMaker Data Wrangler: the fastest way to prepare data for ML; 300+ pre-configured data transformations (with no code required); see data spot inconsistencies, diagnose and fix; export data with a single click  
 - Amazon SageMaker Featre Store: securely store, discover and share features, so you don't need to recreate teh same features for different ML applications; single digit ms latency for inference; keep features consistent and in sync; search your features easily with visualizations.  
@@ -61,7 +61,7 @@ Speeding up innovation with SageMaker. Customers: Lyft, T-Mobile, Vanguard, ifoo
 Amazon SageMaker Pipelines: the first purpose built easy to use ML CI/CD service. Create an automated ML workflow with just a few clicks. Dr. Matt Wood  
 - Amazon SageMaker Edge Manager: Deploying models at the Edge: Industrial robots, Autonomous vehicles, Automated checkouts require ML models that run on robots, smart cameras, equipment, etc. Challenges of ML at Edge: limited compute memory, connectivity, months of hand tuning each model to optimize, the need for multiple ML models to run ona  single device. Amazon SageMaker Neo did a decent job. As ML Edge adoption grew, SageMaker Edge Manager was created. It provides model management to edge devices so you can prepare, run, monitor, update ML models across fleets of edge devices. Easily integrate Edge Manager to your Edge Apps through APIs and common programming languages. Continuosly monitors each instance across your device fleet to detect when the model quality declines. All these encompasses the **SageMaker Studio** with End-to-End services for ML.  
 
-3. Expand ML to more builders  
+**3. Tenet 3: Expand ML to more builders**  
 - SageMaker Autopilot: AutoML-created models (as opposed to Manually-built models) for beginners or non-ML practitioners. Raw data -> Automati model creation -> Model leaderboard -> Deploy and monitor the model.  
 - Amazon Aurora ML: make it easier for customers to integrate ML into Aurora-powered apps, apply ML to apps right from the database just by using a SQL query. (Ex: Sentiment Analysis of customer product reviews to identify negative feedback). Run a SQL query to invoke the ML service -> Aurora passes relevant data to Amazon Comprehend -> Results returned to Aurora that are ready to use. Aurora ML makes it easy for Relational DB Developers to apply ML.  
 - Amazon Athena ML: Customers can easily add ML-based predictions to their queries on S3. Run inferences to forecast sales, detect suspicious logins, sort users into customer cohorts by invoking pretrained ML models.  
@@ -70,7 +70,7 @@ Amazon SageMaker Pipelines: the first purpose built easy to use ML CI/CD service
 Integration SageMaker into other products and BI tools: Domo, Sisense, Qlik, Tableau, Snowflake, Databricks, etc. starting 2021.  
 - Amazon QuickSight ML Insights: scalable, embeddable BI service for the cloud. It integrates with SageMkaer Autopilot to enable BAs for tasks like anomaly detection, forecasting. Customers: Expedia, TCS, Ricoh Company. Autonarratives: a feature that uses ML insights to tell customers the story of their dashboard using plain language narratives. Business questions in plain written language is a big plus. Dorothy Li on QuickSight Q: deep learning capability that empowers business users to ask questions in NLP. (Type your question directly in the Q search bar: "Show me last year's weekly sales in California versus New York").  
 
-4. Solve real business problems, end-to-end  
+**4. Tenet 4: Solve real business problems, end-to-end**  
 What are some good ML models: Are rich in data + Impact the business + Haven't been solved well to date (Example areas: Product recommendations, Improving code reviews, Bringing more efficiency to manual processes, faster and more accurate forecasting and fraud detection)  
 - Amazon Connect (Contact Center): a contact center in the cloud where we provide automatic voice transcription, sentimental analysis and analytics using ML through Contact Lens.  
 - Amazon Kendra (Intelligent Search): end-to-end intelliget search solution which can connect to multiple internal data silos and uses ML to create an accurate index which can be searched with simple NLP queries.    
@@ -91,7 +91,7 @@ Clinical data is complex:
 Amazon HealthLake: store, transform and analyze health and life sciences data in the cloud at petabyte scale. Transforms data to extract meaningful info; Organizes data in chronological order so that you can look at trends; Built-in data query, search and ML capabilities; Supports interoperability standards like FHIR to enable data sharing across health systems. Ex: Diabetes Prediction.  
 Elad Benjamin (GM of Radiology Informatics, Philips): Philips HealthSuite is a clinical datalake built on AWS. Applications in image guided therapy, sleep and respiratory care, remote patient monitoring, etc.  
 
-5. Tenet 5: Learn continuously  
+**5. Tenet 5: Learn continuously**  
 ML University; Training & Certification; MOOCs; AWS DeepRacer + DeepLens + DeepComposer.  
 AWS DeepRacer (RL-based autonomous driving) in the enterprise: DBS Bank, JP Morgan, Chase, BMW, Toyota.  
 
