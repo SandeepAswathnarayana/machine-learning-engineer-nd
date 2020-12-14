@@ -82,7 +82,7 @@ Challenges of Anomaly Detection in etrics: High latency of detection, Failed det
 - Amazon Lookout for Vision: spot product defects using CV to automate quality inspection. Provide as few as 30 images to establish a baseline "good" state -> Alerts you of anomalies and higlights the portion of an image that differs from the baseline -> Sophisticated to handle variances in camera angle, pose, lighting.  
 - AWS Panorama Appliance: to add CV to existing cameras. Customers in: Manufacturing, Retail, Construction, Safety, etc. Panorama SDK: enables heardware vendors to build new cameras, run more sophisticated CV models at the Edge. This SDK and APIs add a lot more CV power to cameras. Fits more powerful models with memory and latency optimizations. Integrates with AWS services including SageMaker and AWS IoT SiteWise.  
 
-Reinventing healthcare and life sciences with ML  
+- Amazon HealthLake: Reinventing healthcare and life sciences with ML  
 Clinical data is complex:
 (a) Data spread across various systems: electronic medical records, lab systems, incomatible format)  
 (b) Unstructured information contained in medical records clinical notes, PDF reports, insurance claims forms, medical images  
