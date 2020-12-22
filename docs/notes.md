@@ -1,3 +1,5 @@
+[Rules of Machine Learning](https://developers.google.com/machine-learning/guides/rules-of-ml) by Martin Zinkevich  
+
 ML Pipeline  
 [AWS ML Pipeline](https://docs.aws.amazon.com/sagemaker/latest/dg/how-it-works-mlconcepts.html)  
 [GCP ML Pipeline](https://cloud.google.com/ai-platform/docs/ml-solutions-overview)  
