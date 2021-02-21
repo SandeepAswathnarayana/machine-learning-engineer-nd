@@ -29,6 +29,9 @@ Notes:
 - ml.p3dn.24xlarge: largest instance_type available on SageMaker today (64 NVIDIA V100 GPUs).  
 - CloudWatch: GPU Utilization graph has lots of highs and lows. This is because of the cost of synchronization. Again, it's a tradeoff between GPU Utilization and Model Convergence.  
 
+### Season 3  
+S3E1: The complete ML life cycle with Amazon SageMaker  
+
 ## AWS Power Hour: Cloud Practitioner  
 [AWS Certified Cloud Practitioner, Global Challenge](https://pages.awscloud.com/awspowerhour-CP.html)  
 
